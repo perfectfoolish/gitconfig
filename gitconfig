@@ -1,13 +1,13 @@
 [user]
-        name = lifulei
-        email = az00000000@126.com
+  name = lifulei
+  email = az00000000@126.com
 [alias]
-        throw = reset --hard HEAD
-        throwh = reset --hard HEAD^
-        ci = commit -a -v
-        co = checkout
-        br = branch
-        st = status
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  throw = reset --hard HEAD
+  throwh = reset --hard HEAD^
+  ci = commit -a -v
+  co = checkout
+  br = branch
+  st = status
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [core]
-	editor = vim
+  editor = vim
