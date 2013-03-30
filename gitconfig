@@ -12,3 +12,5 @@
   unstage = reset HEAD
 [core]
   editor = vim
+[color]
+  ui = true
