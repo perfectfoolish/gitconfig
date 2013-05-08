@@ -12,6 +12,7 @@
   unstage = reset HEAD
 [core]
   editor = vim
+  excludesfile = /Users/cow/.gitignore_global
 [color]
   ui = true
   excludesfile = /Users/cow/.gitignore_global
@@ -22,4 +23,5 @@
   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
 [push]
-  default = simple
+#  default = simple
+  default = matching
